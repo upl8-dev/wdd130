@@ -1,10 +1,9 @@
 :root {
     --primary-color: #0B6E99;
-    --secondary-color: #11A8C6;
     --accent1-color: #F4B400;
     --accent2-color: #F25C26;
-    --heading-font: "Permanent Marker", "Helvetica Neue", Arial, sans-serif;
-    --body-font: "Sedgwick Ave", "Impact", "Arial Black", sans-serif;
+    --heading-font: "Times New Roman", "Helvetica Neue", Arial, sans-serif;
+    --body-font: "Calibri", "Impact", "Arial Black", sans-serif;
 }
 header {
     /* background-color: var(--primary-color); */
@@ -52,7 +51,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    background-color: rgb(244, 180, 0, 0.7);
+    background-color: rgba(195, 143, 0, 0.9);
     color: #fff;
 }
 .hero article {
