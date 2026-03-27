@@ -5,6 +5,7 @@
     --accent2-color: #785500;
     --heading-font: Helvetica, sans-serif;
     --body-font: Arial, sans-serif;
+    --header-text-color: #c8f0e6;
 }
 
 * {
@@ -15,7 +16,7 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color);
+    color: var(--header-text-color);
 }
 
 body {
