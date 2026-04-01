@@ -57,3 +57,31 @@ div {
     margin: .25rem;
     background-color: #abd;
 }
+
+.flex {
+    background-color: #aba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    background-color: #abb;
+    display: grid;
+    place-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.columns-3 {
+    grid-column: 1/4;
+}
