@@ -17,6 +17,34 @@
 header {
     background-color: var(--primary-color);
     color: var(--header-text-color);
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    padding: 16px;
+}
+
+header img {
+    width: 200px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+nav li {
+    margin-left: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: x-large;
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid #333;
+    color: #000;
+
 }
 
 body {
@@ -38,20 +66,16 @@ h2 {
     color: var(--primary-color);
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
-}
-
 .socialmedia a {
     text-decoration: none;
 }
 
 .hero {
+    background-color: #ddd;
+    padding: 24px;
     position: relative;
+    margin: 16px;
+    border: 2px solid #333;
 }
 
 .hero img {
@@ -61,8 +85,7 @@ article {
 }
 
 .hero h1 {
-    position: absolute;
-    top: 20px;
+    /* position: absolute; */
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -77,10 +100,60 @@ article {
 }
 
 .hero article {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    /* position: absolute; */
     background-color: #ffffffcc;
     padding: 16px;
     max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    padding: 16px;
+    align-items: center;
+}
+
+.history h2 {
+    text-align: center;
+}
+
+.history img {
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100px;
+    height: auto;
+}
+
+.adventure h2 {
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b9acd6;
+    padding: 16px;
+}
+
+.socialmedia {
+    display: flex;
+    margin: 10px;
+}
+
+.socialmedia img {
+    width: 30px;
 }
