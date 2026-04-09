@@ -7,7 +7,7 @@
     <meta name="description"
       content="Ready for a weekend of White Water Rafting?? Contact us today!">
     <meta name="author" content="Ethan Shirley">
-    <title>Contact Us | White Water Rafting</title>
+    <title>Contact Us | The Wet Bandits</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
@@ -34,7 +34,7 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28790.88710292553!2d-99.08304431471102!3d40.668036713448956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1775627652776!5m2!1sen!2sus"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
@@ -49,30 +49,34 @@
                 <input type="email" id="useremail" name="useremail" placeholder=" Placeholder"
                   required>
             </div>
+
+            <!-- MESSAGE PURPOSE -->
+            <p>Message Purpose</p>
+
+            <label for="purpose-general">
+                <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                General Inquiry
+            </label>
+
+            <label for="purpose-reservation">
+                <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                Reservation Question
+            </label>
+
+            <label for="purpose-suggestion">
+                <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+                Website Suggestion
+            </label>
+
+            <!-- MESSAGE -->
+            <label for="feedback">Message:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder=" Type here"></textarea>
+            <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <button type="submit">Get in Touch!</button>
         </form>
-        <!-- MESSAGE PURPOSE -->
-        <p>Message Purpose</p>
 
-        <label for="purpose-general">
-            <input type="radio" id="purpose-general" name="purpose" value="general" required>
-            General Inquiry
-        </label>
 
-        <label for="purpose-reservation">
-            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
-            Reservation Question
-        </label>
-
-        <label for="purpose-suggestion">
-            <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
-            Website Suggestion
-        </label>
-        <!-- MESSAGE -->
-        <label for="feedback">Message:</label>
-        <textarea id="feedback" name="feedback" rows="4" placeholder=" Type here"></textarea>
-        <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
-        <input type="checkbox" id="subscribe" name="subscribe">
-        <button type="submit">Get in Touch!</button>
         <section class="adventure">
             <h2>We Are Here to Serve You</h2>
             <div class="gallery">
