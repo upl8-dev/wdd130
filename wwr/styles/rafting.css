@@ -237,16 +237,27 @@ footer p {
     margin-top: 4px;
 }
 
-.map iframe {
-    max-width: 325px;
-    max-height: 325px;
-    display: flex;
-    margin: 8px;
+.form-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-left: -66px;
 }
 
-.form-item {
-    display: flex;
-    align-items: center;
+.form-item label {
+    text-align: right;
+    padding: 10px;
+}
+
+.form-item input {
+    width: 90%;
+}
+
+.contact-form p {
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 input,
@@ -282,12 +293,34 @@ header a:hover {
     background-color: var(--button-hover);
 }
 
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
+.contact-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
 }
 
-.column2 {
-    grid-template-columns: 1fr 2fr;
-    padding: 8px;
+.map {
+    flex: 1;
+    padding-top: 4px;
+}
+
+.map iframe {
+    max-width: 100%;
+    min-height: 400px;
+    border: none;
+}
+
+.contact-form {
+    flex: 1;
+    padding-top: 4px;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+textarea {
+    width: 90%;
 }
