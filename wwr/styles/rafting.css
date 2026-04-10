@@ -7,6 +7,7 @@
     --body-font: Arial, sans-serif;
     --header-text-color: #c8f0e6;
     --font-color: #fdf8db;
+    --button-hover: #fff;
 }
 
 * {
@@ -243,4 +244,50 @@ footer p {
     margin: 8px;
 }
 
-.form-item column2 {}
+.form-item {
+    display: flex;
+    align-items: center;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 16px;
+    padding: .75rem;
+    font-size: 1.2rem;
+    border: 3px solid black;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+header a:hover {
+    background-color: var(--button-hover);
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    padding: 8px;
+}
