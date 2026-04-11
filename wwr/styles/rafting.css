@@ -115,6 +115,7 @@ h2 {
 
 article p {
     font-weight: bold;
+    color: var(--secondary-color);
 }
 
 .hero article {
@@ -142,11 +143,6 @@ section {
     color: var(--font-color);
     font-weight: bolder;
 }
-
-article p {
-    color: var(--secondary-color);
-}
-
 
 .history-content {
     display: grid;
