@@ -114,6 +114,10 @@ h2 {
     margin-right: 48px;
 }
 
+article p {
+    font-weight: bold;
+}
+
 .hero article {
     position: absolute;
     right: 16px;
@@ -136,7 +140,8 @@ section {
     border-radius: 16px;
     margin-top: 8px;
     background-color: var(--primary-color);
-    color: #000;
+    color: var(--font-color);
+    font-weight: bolder;
 }
 
 .history-content {
@@ -301,7 +306,8 @@ header a:hover {
 
 .map {
     flex: 1;
-    padding-top: 4px;
+    padding-top: 24px;
+    padding-left: 16px;
 }
 
 .map iframe {
@@ -323,4 +329,8 @@ header a:hover {
 
 textarea {
     width: 90%;
+}
+
+button[type="submit"] {
+    margin-right: 50px;
 }

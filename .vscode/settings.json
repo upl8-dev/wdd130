@@ -1,6 +1,6 @@
 {
   // Auto Save when focus changes (allows formatOnSave to work)
-  "files.autoSave": "onFocusChange",
+  "files.autoSave": "afterDelay",
   // Editor settings
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
@@ -56,5 +56,6 @@
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
   "inlineChat.accessibleDiffView": "off",
-  "terminal.integrated.initialHint": false
+  "terminal.integrated.initialHint": false,
+  "files.autoSaveDelay": 200
 }
