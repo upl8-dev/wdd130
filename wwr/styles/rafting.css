@@ -1,13 +1,13 @@
 :root {
-    --primary-color: #1A5DAB;
-    --secondary-color: #1B4B3A;
-    --accent1-color: #edf8fc;
-    --accent2-color: #785500;
+    --primary-color: rgb(26, 93, 171);
+    --secondary-color: rgb(27, 75, 58);
+    --accent1-color: rgb(237, 248, 252);
+    --accent2-color: rgb(120, 85, 0);
     --heading-font: Helvetica, sans-serif;
     --body-font: Arial, sans-serif;
-    --header-text-color: #c8f0e6;
-    --font-color: #fdf8db;
-    --button-hover: #fff;
+    --header-text-color: rgb(200, 240, 230);
+    --font-color: rgb(253, 248, 219);
+    --button-hover: rgb(255, 255, 255);
 }
 
 * {
@@ -56,7 +56,6 @@ header nav a {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent2-color);
     background-color: #F4E1C1;
 }
 
@@ -184,7 +183,6 @@ section {
 .adventure {
     display: grid;
     border-color: #000;
-    justify-content: space-evenly 16px;
     align-items: center;
     background-color: var(--primary-color);
     padding: 16px;
@@ -282,7 +280,6 @@ button {
     margin: 1rem;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
-    border: none;
     border-radius: 16px;
     padding: .75rem;
     font-size: 1.2rem;
