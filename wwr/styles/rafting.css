@@ -169,6 +169,11 @@ section {
     border-radius: 64px;
 }
 
+.hero h2 {
+    position: relative;
+    z-index: -10;
+}
+
 .gallery {
     display: flex;
     justify-content: space-between;
